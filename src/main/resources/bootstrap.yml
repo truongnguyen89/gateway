@@ -38,6 +38,9 @@ zuul:
     api-schedule:
       path: /api/schedule/**
       serviceId: schedule
+    api-auth:
+      path: /api/auth/**
+      serviceId: auth
   host:
     connect-timeout-millis: 200000
     socket-timeout-millis: 200000
